@@ -168,8 +168,7 @@ function Registration() {
                 confirmPassword,
               };
 
-              await axios
-                .post(BASE_URL + "/create_user", { user })
+              await axios.post(BASE_URL + "/create_user", { user })
                 .then((response) => {
                   if (response.status === 200) {
                     localStorage.setItem(
