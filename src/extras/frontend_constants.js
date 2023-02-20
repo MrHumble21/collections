@@ -18,6 +18,7 @@ const userCollectionHeader = [
 ];
 
 const BASE_URL = "https://collections.mrhumble.uz";
+
 exports.BASE_URL = BASE_URL;
 exports.headersCollections = headersCollections;
 exports.userCollectionHeader = userCollectionHeader;
