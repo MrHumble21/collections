@@ -13,7 +13,8 @@ const Settings = () => {
                <div className="d-flex justify-content-center align-items-center">
 
                    <h1 className={'mx-2'}>Language:</h1>
-                   {/*<div id="google_translate_element"></div>*/}
+                   <div id="google_translate_element"></div>
+
                </div>
 
            </div>
