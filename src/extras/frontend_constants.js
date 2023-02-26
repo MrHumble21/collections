@@ -17,7 +17,7 @@ const userCollectionHeader = [
   { label: "Role", key: "role" },
 ];
 
-const BASE_URL = "https://collections.mrhumble.uz";
+const BASE_URL = "http://collections-api.mrhumble.uz";
 
 exports.BASE_URL = BASE_URL;
 exports.headersCollections = headersCollections;
